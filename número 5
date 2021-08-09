@@ -1,0 +1,15 @@
+primes(1000);
+
+function primes(limit){
+  for(let number=2; number <= limit; number++){
+    let isPrime = true;
+    
+    for(let divider = 2; divider < number; divider++){
+      if (number % divider === 0) {
+        isPrime = false
+        break;
+      }
+    }
+    if (isPrime) console.log(number)
+  }
+}
