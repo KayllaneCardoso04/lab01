@@ -8,4 +8,3 @@ function  factorial(n)
     return factor
   }
 console.log (factorial(12))
-  
