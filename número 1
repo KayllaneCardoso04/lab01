@@ -1,0 +1,11 @@
+function  factorial(n)
+  {
+    let factor = n;
+    for(let i = 1; i < n; i++)
+    {
+      factor = factor*i;
+    }
+    return factor
+  }
+console.log (factorial(12))
+  
