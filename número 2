@@ -1,0 +1,9 @@
+function potency(n){
+  for(let i = 1; i < 30; i++){
+  let m
+  m = n**i
+  console.log(m)
+  }
+  return n
+}
+potency(4)
