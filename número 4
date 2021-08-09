@@ -1,0 +1,14 @@
+function fibonacci(value){
+  let previous = 0;
+  let current = 1;
+  let next = 1;
+  
+  for (let i = 0; i < value; i++){
+    console.log(next)
+    previous = current + next;
+    current = next
+    next = previous
+  }
+} 
+
+fibonacci(100)
